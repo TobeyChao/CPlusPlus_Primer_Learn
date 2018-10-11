@@ -16,6 +16,9 @@
     <Filter Include="Source Files\container">
       <UniqueIdentifier>{7cb97358-afd7-45ec-90ab-381da9f42430}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CopyControl">
+      <UniqueIdentifier>{b2b76288-994d-4114-b55e-0188950b1b30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="string.cpp">
@@ -45,5 +48,13 @@
     <ClCompile Include="io.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Source Files\CopyControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Foo.h">
+      <Filter>Source Files\CopyControl</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -120,11 +120,15 @@
     <ClCompile Include="const.cpp" />
     <ClCompile Include="dataType.cpp" />
     <ClCompile Include="dynamicMemory.cpp" />
+    <ClCompile Include="Foo.cpp" />
     <ClCompile Include="heap-stack.cpp" />
     <ClCompile Include="io.cpp" />
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="string.cpp" />
     <ClCompile Include="vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Foo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
