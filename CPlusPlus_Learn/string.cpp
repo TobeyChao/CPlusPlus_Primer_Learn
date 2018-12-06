@@ -6,13 +6,10 @@
 //
 //int main()
 //{
-//	using std::cin;
-//	using std::cout;
-//	using std::string;
-//	int i = 0;
-//	cin >> i;
-//	cout << i;
+//	//默认构造函数
 //	string s1;
+//
+//	//带参的构造函数
 //	string s2(s1);
 //
 //	//直接初始化
@@ -20,13 +17,14 @@
 //
 //	//拷贝初始化
 //	string s3_ = "value";
-//	string s4(4, 'b');
+//
+//	//但是编译器辉绕过拷贝构造函数将以上的代码改写为
+//	string s3__("value");
 //
 //	string word("hello world!");
 //	while (std::getline(cin, word))
 //	{
 //		cout << word << std::endl;
 //	}
-//	system("pause");
 //	return 0;
 //}

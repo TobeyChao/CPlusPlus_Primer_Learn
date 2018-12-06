@@ -51,10 +51,16 @@
     <ClCompile Include="Foo.cpp">
       <Filter>Source Files\CopyControl</Filter>
     </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">
       <Filter>Source Files\CopyControl</Filter>
+    </ClInclude>
+    <ClInclude Include="StrBlob.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

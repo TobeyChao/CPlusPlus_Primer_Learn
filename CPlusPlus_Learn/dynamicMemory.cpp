@@ -1,12 +1,12 @@
+//#include "StrBlob.h"
 //#include <iostream>
-//#include <string>
-//#include <vector>
-//#include <memory>
-//
 //using namespace std;
 //
 //int main()
 //{
-//	system("pause");
+//	StrBlob sb1;
+//	StrBlob sb2 = sb1;
+//	cout << sb1.data << endl;
+//	cout << sb2.data << endl;
 //	return 0;
 //}

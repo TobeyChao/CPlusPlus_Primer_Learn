@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{E39166AD-1157-4239-99D4-C26C46867218}</ProjectGuid>
     <RootNamespace>CPlusPlusLearn</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,12 +123,14 @@
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="heap-stack.cpp" />
     <ClCompile Include="io.cpp" />
+    <ClCompile Include="queue.cpp" />
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="string.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h" />
+    <ClInclude Include="StrBlob.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
