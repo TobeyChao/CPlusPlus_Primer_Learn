@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Netease">
+      <UniqueIdentifier>{de89b857-264d-4c43-9d1a-72d55843bdc7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="懂二进制.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -44,6 +44,42 @@
     </ClCompile>
     <ClCompile Include="数字翻转.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二维数组查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="从尾到头打印链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="斐波那契数列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="重建二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="两个栈实现队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数素数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="替换空格.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="坏表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="会话id.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符迷阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="方.cpp">
+      <Filter>Netease</Filter>
+    </ClCompile>
+    <ClCompile Include="平均碎片长度cpp.cpp">
+      <Filter>Netease</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -9,6 +9,8 @@ int main()
 	//拷贝构造函数
 	String str3 = str1;
 
+	String str5 = String("hello");
+
 	String str4;
 	//重载赋值操作符
 	str4 = str2;
