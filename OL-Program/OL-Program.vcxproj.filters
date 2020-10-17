@@ -16,6 +16,9 @@
     <Filter Include="Netease">
       <UniqueIdentifier>{de89b857-264d-4c43-9d1a-72d55843bdc7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="新东方">
+      <UniqueIdentifier>{aa5b16c9-8e85-421e-b397-b510d2f91dea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="懂二进制.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="平均碎片长度cpp.cpp">
       <Filter>Netease</Filter>
+    </ClCompile>
+    <ClCompile Include="题目1.cpp">
+      <Filter>新东方</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
