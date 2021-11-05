@@ -1,5 +1,15 @@
 #include <iostream>
 
+struct MyStruct
+{
+	MyStruct(int i)
+	{
+		num = i;
+	}
+private:
+	 int num;
+};
+
 int main()
 {
 	std::cout << "bool: \t" << sizeof(bool) << std::endl;
@@ -11,4 +21,16 @@ int main()
 	std::cout << "long double: \t" << sizeof(long double) << std::endl;
 	std::cout << "char: \t" << sizeof(char) << std::endl;
 	std::cout << "wchar_t: \t" << sizeof(wchar_t) << std::endl;
+	int a = 0, b = 1;
+	auto ptr = [&a, b]() -> MyStruct
+	{
+		a = 1;
+		MyStruct s1(1);
+		return s1;
+	};
+
+	MyStruct s1(1);
+
+	return 0;
 }
+
