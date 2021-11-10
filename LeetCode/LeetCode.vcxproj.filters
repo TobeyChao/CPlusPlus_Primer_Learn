@@ -87,5 +87,8 @@
     <ClCompile Include="letterCombinations.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="438.找到字符串中所有字母异位词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

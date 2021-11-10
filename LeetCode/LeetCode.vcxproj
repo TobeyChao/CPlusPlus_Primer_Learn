@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="438.找到字符串中所有字母异位词.cpp" />
     <ClCompile Include="AddTwoNum.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
