@@ -30,9 +30,6 @@
     <ClCompile Include="TwoNum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AddTwoNum.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Roma.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -94,6 +91,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="438.找到字符串中所有字母异位词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.两数之和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
