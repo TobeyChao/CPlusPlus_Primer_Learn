@@ -96,5 +96,11 @@
     <ClCompile Include="1.两数之和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="18.四数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.两数相加.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
