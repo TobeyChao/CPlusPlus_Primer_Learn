@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.两数之和.cpp" />
+    <ClCompile Include="15.三数之和.cpp" />
     <ClCompile Include="438.找到字符串中所有字母异位词.cpp" />
     <ClCompile Include="75.颜色分类.cpp" />
     <ClCompile Include="76.最小覆盖子串.cpp" />
