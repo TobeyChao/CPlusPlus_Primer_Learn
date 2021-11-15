@@ -97,7 +97,7 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="15.三数之和.cpp">
-          <Filter>源文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="18.四数之和.cpp">
       <Filter>源文件</Filter>
@@ -109,6 +109,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="3.无重复字符的最长子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="92.反转链表 II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
