@@ -3,15 +3,15 @@
 
 int main()
 {
-	String str1("Hello");
-	String str2("Hello world");
+	const String str1("Hello");
+	const String str2("Hello world");
 
 	//拷贝构造函数
 	String str3 = str1;
 
 	String str5 = String("hello");
 
-	String str4;
+	String str4 = str1 + str2;
 	//重载赋值操作符
 	str4 = str2;
 	str4 + str2;
