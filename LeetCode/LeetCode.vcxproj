@@ -124,6 +124,8 @@
     <ClCompile Include="438.找到字符串中所有字母异位词.cpp" />
     <ClCompile Include="75.颜色分类.cpp" />
     <ClCompile Include="76.最小覆盖子串.cpp" />
+    <ClCompile Include="82.删除排序链表中的重复元素II.cpp" />
+    <ClCompile Include="83.删除排序链表中的重复元素.cpp" />
     <ClCompile Include="92.反转链表 II.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />

@@ -114,5 +114,11 @@
     <ClCompile Include="92.反转链表 II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="83.删除排序链表中的重复元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="82.删除排序链表中的重复元素II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
