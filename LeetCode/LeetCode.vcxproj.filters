@@ -120,5 +120,20 @@
     <ClCompile Include="82.删除排序链表中的重复元素II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="225.用队列实现栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="232.用栈实现队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="704.二分查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35.搜索插入位置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="278.第一个错误的版本.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
