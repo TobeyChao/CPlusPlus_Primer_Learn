@@ -144,5 +144,17 @@
     <ClCompile Include="977.有序数组的平方.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="19.删除链表的倒数第N个结点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="283.移动零.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="344.反转字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="167.两数之和II-输入有序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
