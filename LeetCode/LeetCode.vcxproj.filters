@@ -156,5 +156,8 @@
     <ClCompile Include="167.两数之和II-输入有序数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="145.二叉树的后序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
