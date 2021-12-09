@@ -1,5 +1,6 @@
 #include <DirectXMath.h>
 #include <iostream>
+#include <iomanip>
 
 using namespace DirectX;
 using namespace std;
@@ -29,19 +30,37 @@ int main()
 	ConstructGaussianFunction(1.5);
 
 	XMFLOAT2 base[9] = {
-		{ 0, 0 },
+		{ -1, 1 },
 		{ 0, 1 },
 		{ 1, 1 },
-		{ 1, 0 },
-		{ 1, -1 },
-		{ 0, -1 },
-		{ -1, -1 },
 		{ -1, 0 },
-		{ -1, 1 } };
+		{ 0, 0 },
+		{ 1, 0 },
+		{ -1, -1 },
+		{ 0, -1 },
+		{ 1, -1 }
+	};
 
-	for (size_t i = 0; i < 9; i++)
+	float sum = .0f;
+	for (size_t i = 0; i < 3; i++)
 	{
-		cout << "G:" << GaussianFunction(base[i].x, base[i].y) << endl;
+		for (size_t j = 0; j < 3; j++)
+		{
+			sum += GaussianFunction(base[i].x, base[i].y);
+			cout << GaussianFunction(base[i].x, base[i].y) << "\t";
+		}
+		cout << endl;
+	}
+	cout << endl;
+	for (size_t i = 0; i < 3; i++)
+	{
+		for (size_t j = 0; j < 3; j++)
+		{
+			//printf("%.2f\t", GaussianFunction(base[i].x, base[i].y) / sum);
+			cout << fixed << setprecision(2);
+			cout << GaussianFunction(base[i].x, base[i].y) / sum << "\t";
+		}
+		cout << endl;
 	}
 
 	return 0;
