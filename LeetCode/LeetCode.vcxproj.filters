@@ -159,5 +159,26 @@
     <ClCompile Include="145.二叉树的后序遍历.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="101.对称二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="70.爬楼梯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66.加一.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="88.合并两个有序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="104.二叉树的最大深度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="94.二叉树的中序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="108.将有序数组转换为二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
