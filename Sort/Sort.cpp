@@ -230,6 +230,34 @@ void Sort::HeapAdjust(std::vector<int>& nums, int left, int right)
 
 void Sort::CountingSort(std::vector<int>& nums)
 {
+	if (nums.size() <= 1)
+	{
+		return;
+	}
+	int max = nums[0];
+	int min = nums[0];
+	// 求最大最小值
+	for (int i = 1; i < nums.size(); i++)
+	{
+		max = std::max(max, nums[i]);
+		min = std::min(min, nums[i]);
+	}
+	std::vector<int> countVec(max + 1, 0);
+	// 统计数字出现的数量
+	for (int i = 0; i < nums.size(); i++)
+	{
+		countVec[nums[i]]++;
+	}
+	for (int i = 1; i < countVec.size(); i++)
+	{
+		countVec[i] += countVec[i - 1];
+	}
+	std::vector<int> res(nums.size());
+	for (int i = nums.size() - 1; i >= 0; i--)
+	{
+		res[--countVec[nums[i]]] = nums[i];
+	}
+	nums = std::move(res);
 }
 
 void Sort::BucketSort(std::vector<int>& nums)
