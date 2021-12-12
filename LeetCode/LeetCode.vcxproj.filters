@@ -198,5 +198,17 @@
     <ClCompile Include="168.Excel表列名称.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="144.二叉树的前序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="125.验证回文串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="141.环形链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="110.平衡二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
