@@ -27,11 +27,27 @@
 //
 //class Solution {
 //public:
-//	vector<int> inorderTraversal(TreeNode* root) {
+//	// 1.µÝ¹é
+//	/*vector<int> inorderTraversal(TreeNode* root) {
 //
-//		//vector<int> v;
-//		//inorderTraversal(v, root);
-//		//return v;
+//		vector<int> v;
+//		inorderTraversal(v, root);
+//		return v;
+//	}
+//
+//	void inorderTraversal(vector<int>& v, TreeNode* node)
+//	{
+//		if (!node)
+//		{
+//			return;
+//		}
+//		inorderTraversal(v, node->left);
+//		v.push_back(node->val);
+//		inorderTraversal(v, node->right);
+//	}*/
+//
+//	// 2.µü´ú1
+//	/*vector<int> inorderTraversal(TreeNode* root) {
 //
 //		vector<int> v;
 //
@@ -77,23 +93,32 @@
 //		}
 //
 //		return v;
+//	}*/
+//
+//	// 3.µü´ú2
+//	vector<int> inorderTraversal(TreeNode* root) {
+//		vector<int> res;
+//		stack<TreeNode*> s;
+//
+//		TreeNode* node = root;
+//
+//		while (node || !s.empty())
+//		{
+//			while (node)
+//			{
+//				s.push(node);
+//				node = node->left;
+//			}
+//
+//			TreeNode* top = s.top();
+//			s.pop();
+//			res.push_back(top->val);
+//
+//			node = top->right;
+//		}
+//
+//		return res;
 //	}
 //
 //private:
-//	void inorderTraversal(vector<int>& v, TreeNode* node)
-//	{
-//		if (!node)
-//		{
-//			return;
-//		}
-//		inorderTraversal(v, node->left);
-//		v.push_back(node->val);
-//		inorderTraversal(v, node->right);
-//	}
 //};
-//
-//
-//int main()
-//{
-//
-//}
