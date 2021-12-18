@@ -121,6 +121,9 @@
     <ClCompile Include="104.二叉树的最大深度.cpp" />
     <ClCompile Include="108.将有序数组转换为二叉搜索树.cpp" />
     <ClCompile Include="110.平衡二叉树.cpp" />
+    <ClCompile Include="111.二叉树的最小深度.cpp" />
+    <ClCompile Include="118.杨辉三角.cpp" />
+    <ClCompile Include="119.杨辉三角II.cpp" />
     <ClCompile Include="125.验证回文串.cpp" />
     <ClCompile Include="141.环形链表.cpp" />
     <ClCompile Include="144.二叉树的前序遍历.cpp" />
@@ -134,8 +137,10 @@
     <ClCompile Include="190.颠倒二进制位.cpp" />
     <ClCompile Include="191.位1的个数.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
+    <ClCompile Include="22.括号生成.cpp" />
     <ClCompile Include="225.用队列实现栈.cpp" />
     <ClCompile Include="232.用栈实现队列.cpp" />
+    <ClCompile Include="24.两两交换链表中的节点.cpp" />
     <ClCompile Include="278.第一个错误的版本.cpp" />
     <ClCompile Include="283.移动零.cpp" />
     <ClCompile Include="3.无重复字符的最长子串.cpp" />
