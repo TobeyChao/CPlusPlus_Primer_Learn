@@ -225,5 +225,14 @@
     <ClCompile Include="24.两两交换链表中的节点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="437.路径总和III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="98.验证二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="450.删除二叉搜索树中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
