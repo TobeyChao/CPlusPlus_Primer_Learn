@@ -225,5 +225,8 @@
     <ClCompile Include="24.两两交换链表中的节点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="198.打家劫舍.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

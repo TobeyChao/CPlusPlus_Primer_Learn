@@ -136,6 +136,7 @@
     <ClCompile Include="19.删除链表的倒数第N个结点.cpp" />
     <ClCompile Include="190.颠倒二进制位.cpp" />
     <ClCompile Include="191.位1的个数.cpp" />
+    <ClCompile Include="198.打家劫舍.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="22.括号生成.cpp" />
     <ClCompile Include="225.用队列实现栈.cpp" />
