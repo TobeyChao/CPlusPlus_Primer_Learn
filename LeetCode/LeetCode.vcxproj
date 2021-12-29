@@ -150,6 +150,7 @@
     <ClCompile Include="206.反转链表.cpp" />
     <ClCompile Include="344.反转字符串.cpp" />
     <ClCompile Include="35.搜索插入位置.cpp" />
+    <ClCompile Include="39.组合总和.cpp" />
     <ClCompile Include="437.路径总和III.cpp" />
     <ClCompile Include="438.找到字符串中所有字母异位词.cpp" />
     <ClCompile Include="450.删除二叉搜索树中的节点.cpp" />
