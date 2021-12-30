@@ -132,6 +132,7 @@
     <ClCompile Include="160.相交链表.cpp" />
     <ClCompile Include="167.两数之和II-输入有序数组.cpp" />
     <ClCompile Include="168.Excel表列名称.cpp" />
+    <ClCompile Include="17.电话号码的字母组合.cpp" />
     <ClCompile Include="189.轮转数组.cpp" />
     <ClCompile Include="19.删除链表的倒数第N个结点.cpp" />
     <ClCompile Include="190.颠倒二进制位.cpp" />

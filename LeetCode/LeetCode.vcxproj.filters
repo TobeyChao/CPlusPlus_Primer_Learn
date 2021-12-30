@@ -243,5 +243,8 @@
     <ClCompile Include="39.组合总和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="17.电话号码的字母组合.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
