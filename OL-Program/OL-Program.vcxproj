@@ -25,6 +25,7 @@
     <ClCompile Include="从尾到头打印链表.cpp" />
     <ClCompile Include="会话id.cpp" />
     <ClCompile Include="关灯游戏.cpp" />
+    <ClCompile Include="双周赛69.cpp" />
     <ClCompile Include="坏表.cpp" />
     <ClCompile Include="字符串编码.cpp" />
     <ClCompile Include="字符迷阵.cpp" />
@@ -39,6 +40,7 @@
     <ClCompile Include="密码检查.cpp" />
     <ClCompile Include="懂二进制.cpp" />
     <ClCompile Include="数字翻转.cpp" />
+    <ClCompile Include="周赛274.cpp" />
     <ClCompile Include="重建二叉树.cpp" />
     <ClCompile Include="题目1.cpp" />
   </ItemGroup>
