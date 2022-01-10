@@ -151,6 +151,7 @@
     <ClCompile Include="15.三数之和.cpp" />
     <ClCompile Include="18.四数之和.cpp" />
     <ClCompile Include="206.反转链表.cpp" />
+    <ClCompile Include="306.累加数.cpp" />
     <ClCompile Include="344.反转字符串.cpp" />
     <ClCompile Include="35.搜索插入位置.cpp" />
     <ClCompile Include="39.组合总和.cpp" />

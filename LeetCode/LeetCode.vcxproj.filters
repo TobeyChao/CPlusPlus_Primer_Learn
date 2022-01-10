@@ -246,11 +246,9 @@
     <ClCompile Include="17.电话号码的字母组合.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1629.按键持续时间最长的键.cpp">
+    <ClCompile Include="306.累加数.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
+    </ClCompile>    <ClCompile Include="1629.按键持续时间最长的键.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>  </ItemGroup>
 </Project>
