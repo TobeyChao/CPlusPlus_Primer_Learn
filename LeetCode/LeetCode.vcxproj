@@ -141,6 +141,7 @@
     <ClCompile Include="191.位1的个数.cpp" />
     <ClCompile Include="198.打家劫舍.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
+    <ClCompile Include="2022.将一维数组转变成二维数组.cpp" />
     <ClCompile Include="22.括号生成.cpp" />
     <ClCompile Include="225.用队列实现栈.cpp" />
     <ClCompile Include="232.用栈实现队列.cpp" />
@@ -198,6 +199,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
