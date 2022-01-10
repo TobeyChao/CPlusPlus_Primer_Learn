@@ -246,5 +246,8 @@
     <ClCompile Include="17.电话号码的字母组合.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="306.累加数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
