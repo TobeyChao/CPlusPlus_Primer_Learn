@@ -261,6 +261,9 @@
     <ClCompile Include="2022.将一维数组转变成二维数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1036.逃离大迷宫.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
