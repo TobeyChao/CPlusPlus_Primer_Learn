@@ -264,9 +264,12 @@
     <ClCompile Include="1036.逃离大迷宫.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="334.递增的三元子序列.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="747.至少是其他数字两倍的最大数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
