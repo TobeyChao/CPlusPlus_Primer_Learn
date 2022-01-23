@@ -96,5 +96,8 @@
     <ClCompile Include="周赛275.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="双周赛70.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

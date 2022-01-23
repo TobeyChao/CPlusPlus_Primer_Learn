@@ -25,6 +25,7 @@
     <ClCompile Include="从尾到头打印链表.cpp" />
     <ClCompile Include="会话id.cpp" />
     <ClCompile Include="关灯游戏.cpp" />
+    <ClCompile Include="双周赛70.cpp" />
     <ClCompile Include="双周赛69.cpp" />
     <ClCompile Include="周赛275.cpp" />
     <ClCompile Include="坏表.cpp" />
