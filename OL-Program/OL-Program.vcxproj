@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="276周赛.cpp" />
     <ClCompile Include="A+B和C.cpp" />
     <ClCompile Include="两个栈实现队列.cpp" />
     <ClCompile Include="二维数组查找.cpp" />
