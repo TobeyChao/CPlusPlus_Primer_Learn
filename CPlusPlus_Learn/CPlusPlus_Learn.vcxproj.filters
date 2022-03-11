@@ -19,6 +19,9 @@
     <Filter Include="Source Files\CopyControl">
       <UniqueIdentifier>{b2b76288-994d-4114-b55e-0188950b1b30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\extern">
+      <UniqueIdentifier>{577285bc-39f1-42b3-8c5e-8cef8eaf8225}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="string.cpp">
@@ -53,6 +56,18 @@
     </ClCompile>
     <ClCompile Include="queue.cpp">
       <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="extern.cpp">
+      <Filter>Source Files\extern</Filter>
+    </ClCompile>
+    <ClCompile Include="et1.c">
+      <Filter>Source Files\extern</Filter>
+    </ClCompile>
+    <ClCompile Include="eth1.h">
+      <Filter>Source Files\extern</Filter>
+    </ClCompile>
+    <ClCompile Include="et2.cpp">
+      <Filter>Source Files\extern</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

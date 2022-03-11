@@ -120,6 +120,10 @@
     <ClCompile Include="const.cpp" />
     <ClCompile Include="dataType.cpp" />
     <ClCompile Include="dynamicMemory.cpp" />
+    <ClCompile Include="et1.c" />
+    <ClCompile Include="et2.cpp" />
+    <ClCompile Include="eth1.h" />
+    <ClCompile Include="extern.cpp" />
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="heap-stack.cpp" />
     <ClCompile Include="io.cpp" />
