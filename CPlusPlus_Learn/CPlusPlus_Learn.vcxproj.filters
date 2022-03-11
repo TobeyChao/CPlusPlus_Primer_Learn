@@ -69,6 +69,12 @@
     <ClCompile Include="et2.cpp">
       <Filter>Source Files\extern</Filter>
     </ClCompile>
+    <ClCompile Include="cast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">

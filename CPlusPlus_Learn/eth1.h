@@ -9,4 +9,17 @@ extern int fun2();
 // 定义在et1.c
 // 需要增加extern "C"
 extern "C" int i;
-extern "C" int fun();
+
+#ifdef __cplusplus
+#if __cplusplus
+extern "C" {
+#endif
+#endif /* __cplusplus */
+	int fun();
+#ifdef __cplusplus
+#if __cplusplus
+}
+#endif
+#endif /* __cplusplus */ 
+
+extern char a[];

@@ -15,5 +15,7 @@ int main()
 	std::cout << index << std::endl;
 	std::cout << fun2() << std::endl;
 
+	std::cout << a << std::endl;
+
 	return 0;
 }
