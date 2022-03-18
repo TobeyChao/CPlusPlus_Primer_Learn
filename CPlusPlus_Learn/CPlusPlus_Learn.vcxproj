@@ -84,7 +84,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -124,15 +124,19 @@
     <ClCompile Include="et2.cpp" />
     <ClCompile Include="eth1.h" />
     <ClCompile Include="extern.cpp" />
+    <ClCompile Include="FileUtility.cpp" />
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="heap-stack.cpp" />
     <ClCompile Include="io.cpp" />
+    <ClCompile Include="io1.cpp" />
+    <ClCompile Include="io2.cpp" />
     <ClCompile Include="queue.cpp" />
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="string.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileUtility.h" />
     <ClInclude Include="Foo.h" />
     <ClInclude Include="StrBlob.h" />
   </ItemGroup>
