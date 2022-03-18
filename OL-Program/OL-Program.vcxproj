@@ -44,8 +44,13 @@
     <ClCompile Include="懂二进制.cpp" />
     <ClCompile Include="数字翻转.cpp" />
     <ClCompile Include="周赛274.cpp" />
+    <ClCompile Include="美团1.cpp" />
+    <ClCompile Include="美团2.cpp" />
     <ClCompile Include="重建二叉树.cpp" />
     <ClCompile Include="题目1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

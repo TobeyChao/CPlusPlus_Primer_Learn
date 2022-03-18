@@ -1,17 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Netease">
       <UniqueIdentifier>{de89b857-264d-4c43-9d1a-72d55843bdc7}</UniqueIdentifier>
@@ -19,64 +11,71 @@
     <Filter Include="新东方">
       <UniqueIdentifier>{aa5b16c9-8e85-421e-b397-b510d2f91dea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="美团">
+      <UniqueIdentifier>{fa42d5e3-b41c-46ed-8fac-ec9c437ec5b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="懂二进制.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="密码检查.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="数字字符.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="推箱子.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="字符串编码.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="最大和.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="A+B和C.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="关灯游戏.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="数字翻转.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="二维数组查找.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="从尾到头打印链表.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="斐波那契数列.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="重建二叉树.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="两个栈实现队列.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="数素数.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="替换空格.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="坏表.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="会话id.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="字符迷阵.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="方.cpp">
       <Filter>Netease</Filter>
@@ -88,19 +87,30 @@
       <Filter>新东方</Filter>
     </ClCompile>
     <ClCompile Include="周赛274.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="双周赛69.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="周赛275.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="双周赛70.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
     <ClCompile Include="276周赛.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Others</Filter>
     </ClCompile>
+    <ClCompile Include="美团1.cpp">
+      <Filter>美团</Filter>
+    </ClCompile>
+    <ClCompile Include="美团2.cpp">
+      <Filter>美团</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -126,10 +126,12 @@
     <ClCompile Include="extern.cpp" />
     <ClCompile Include="FileUtility.cpp" />
     <ClCompile Include="Foo.cpp" />
+    <ClCompile Include="Function.cpp" />
     <ClCompile Include="heap-stack.cpp" />
     <ClCompile Include="io.cpp" />
     <ClCompile Include="io1.cpp" />
     <ClCompile Include="io2.cpp" />
+    <ClCompile Include="cast.cpp" />
     <ClCompile Include="queue.cpp" />
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="string.cpp" />

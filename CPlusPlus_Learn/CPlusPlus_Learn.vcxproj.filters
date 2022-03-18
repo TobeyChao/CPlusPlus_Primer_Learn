@@ -69,10 +69,12 @@
     <ClCompile Include="et2.cpp">
       <Filter>Source Files\extern</Filter>
     </ClCompile>
-    <ClCompile Include="FileUtility.cpp">
-      <Filter>Source Files\File</Filter>
+    <ClCompile Include="cast.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="io.cpp">
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>    <ClCompile Include="io.cpp">
       <Filter>Source Files\File</Filter>
     </ClCompile>
     <ClCompile Include="io2.cpp">
@@ -80,8 +82,7 @@
     </ClCompile>
     <ClCompile Include="io1.cpp">
       <Filter>Source Files\File</Filter>
-    </ClCompile>
-  </ItemGroup>
+    </ClCompile>  </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h">
       <Filter>Source Files\CopyControl</Filter>
